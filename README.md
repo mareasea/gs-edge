@@ -1,6 +1,6 @@
 # CoralSense Monitor: Sistema de Monitoramento Avançado para Corais
 
-![Imagem do CoralSense Monitor](imagem.jpg)
+![Imagem do CoralSense Monitor](./img/circuito.png)
 
 ## Descrição
 
@@ -27,12 +27,27 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 
 - Bibliotecas necessárias para os sensores utilizados no projeto (por exemplo, DHT para o sensor de temperatura e umidade).
 
-## Colaboradores
+#### COLABORADORES
 
-- [Nome do colaborador 1](link_perfil_github)
-- [Nome do colaborador 2](link_perfil_github)
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<a href="https://github.com/AnaTorresLoureiro" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://avatars.githubusercontent.com/AnaTorresLoureiro" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Ana Laura Torres Loureiro - RM 554375</p>
+</a>
 
-## Linguagens Utilizadas
+<a href="https://github.com/jaoAprendiz" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://avatars.githubusercontent.com/jaoAprendiz" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">João Victor Soave - RM 557595</p>
+</a>
+</div>
+
+<a href="https://github.com/Vitorr-AF" target="_blank" style="text-align: center; margin-right: 10px;">
+<img loading="lazy" src="https://avatars.githubusercontent.com/Vitorr-AF" width=120>
+<p style="font-size:min(2vh, 36px); margin-top: 10px;">Vitor Augusto França de Oliveira - RM 555469</p>
+</a>
+</div>
+
+## Tecnologias Utilizadas
 ![](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
