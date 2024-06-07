@@ -15,9 +15,16 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 - Exibição em LCD: Mostra todas as informações monitoradas em um display LCD.
 - Inicialização com animação: Exibe uma animação inicial no LCD ao ligar o sistema.
 
-## Links
-- [Link do Projeto no Wokwi](https://wokwi.com/projects/399722316556201985)
-- [Vídeo no Youtube]()
+## Acesso ao prototipo simulado
+<a href="//wokwi.com/projects/399722316556201985 " target="_blank" style="text-align: center; margin-right: 10px;">
+  <img loading="lazy" src=https://github.com/mareasea/.github/assets/136378912/6568c29b-ca0c-488e-b784-1c9b44fc3526 width="150px"
+</a>
+
+## Vídeo explicativo sobre o prejeto
+
+<a href="### " target="_blank" style="text-align: center; margin-right: 10px;">
+  <img loading="lazy" src=https://github.com/mareasea/.github/assets/136378912/2cb0afcc-b8be-4f2c-8eb7-57c15e6dc886 width="150px"
+</a>
 
 ## Instruções de Uso
 
@@ -33,13 +40,13 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 - Conhecimento básico em eletrônica e programação para montagem e configuração do dispositivo.
 
 ## Dependências
-
-- DHT.h: Biblioteca para o sensor de temperatura e umidade DHT.
-- LiquidCrystal.h: Biblioteca para controlar displays LCD.
-- RTClib.h: Biblioteca para utilizar módulos RTC (Real-Time Clock).
-- Wire.h: Biblioteca para comunicação I2C.
-- EEPROM.h: Biblioteca para manipulação da memória EEPROM.
-
+```
+  #include <DHT.h> //Biblioteca para o sensor de temperatura e umidade DHT.
+  #include <LiquidCrystal.h> //Biblioteca para controlar displays LCD.
+  #include <RTClib.h> //Biblioteca para utilizar módulos RTC (Real-Time Clock).
+  #include <Wire.h> //Biblioteca para comunicação I2C.
+  #include <EEPROM.h> //Biblioteca para manipulação da memória EEPROM.
+```
 #### COLABORADORES
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
