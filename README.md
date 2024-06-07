@@ -19,7 +19,7 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 - As leituras e informações possuem um delay de aproximadamente 10s para evitar sobrecarga de dados
 - Este projeto é apenas um protótipo!
 - Devido as limitações da plataforma Wokwi, utilizamos potenciômetros para simular os sensores de pH e de raios UV.
-- Os sensores utilizados não são os ideias para a proposta de utilizá-los no mar, por exemplo seria ideal utilizar ao invés do sensor DHT22, um sensor resistente a água como o DS18B20.
+- Os sensores utilizados não são os ideais para a proposta de utilizá-los nos ocenaos, por exemplo, seria ideal utilizar ao invés do sensor de temperatura DHT22, um sensor resistente a água como o DS18B20.
 
 ## Acesso ao prototipo simulado
 <a href="//wokwi.com/projects/399722316556201985" target="_blank" style="text-align: center; margin-right: 10px;">
