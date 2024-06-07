@@ -1,4 +1,4 @@
-// Incluindo as bibliotecas necessárias para o projeto
+ // Incluindo as bibliotecas necessárias para o projeto
 #include <DHT.h> // Biblioteca para o sensor de temperatura e umidade DHT
 #include <LiquidCrystal.h>  // Biblioteca para LCD I2C
 #include <RTClib.h> // Biblioteca para Relógio em Tempo Real
@@ -184,7 +184,7 @@ void loop() {
 
     mostrarInfo(mediaLux, luxMessage, mediaTemp, tempMessage, mediaPhLevel, phMessage, mediaUv, indiceUV, uvMessage); // Mostrar as informações no LCD
 
-    delay(8000); // Aguardar 8 segundos antes da próxima iteração
+    delay(2000); // Aguardar 8 segundos antes da próxima iteração 
 }
 
 // Função para apagar todos os LEDs
@@ -256,7 +256,7 @@ String avaliarPh(float mediaPhLevel) {
 
   // Verifica se o nível de pH está dentro do intervalo ideal para corais
   if (mediaPhLevel >= 8.0 && mediaPhLevel <= 8.4) {
-    phMessage = "Ideal para Corais"; // Define a mensagem de pH como "Ideal para Corais"
+    phMessage = "Nível Ideal"; // Define a mensagem de pH como "Ideal para Corais"
   } else {
     phMessage = "Fora do ideal!"; // Define a mensagem de pH como "Fora do ideal!"
   }
@@ -273,7 +273,6 @@ String avaliarUv(int indiceUV) {
 
   Serial.print("Índice UV: "); // Imprime "Índice UV: " no monitor serial
   Serial.print(indiceUV); // Imprime o valor do índice UV no monitor serial
-
   // Verifica se o índice UV está acima do valor aceitável
   if (indiceUV > 2) {
     uvMessage = "Crítico!"; // Define a mensagem de UV como "Crítico!"
