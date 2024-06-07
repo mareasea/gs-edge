@@ -32,12 +32,24 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
   <img loading="lazy" src=https://github.com/mareasea/.github/assets/136378912/2cb0afcc-b8be-4f2c-8eb7-57c15e6dc886 width="150px"
 </a>
 
+## Componentes
+- Arudino UNO R3;
+- Placa de Ensaio (grande);
+- Sensor Fotorresistor (LDR);
+- DHT22;
+- Potenciômetros;
+- LEDs;
+- Resistores;
+- DS1307 RTC (Real Time Clock);
+- Tela LCD 16x2;
+- Fios
+
 ## Instruções de Uso
 
 1. Conecte os sensores de temperatura, luminosidade, pH e índice UV ao CoralSense Monitor.
 2. Ligue o dispositivo e aguarde a inicialização.
 3. Os dados coletados pelos sensores serão exibidos no display LCD do CoralSense Monitor.
-4. Monitore os valores exibidos para garantir que as condições do ambiente do seu aquário de corais estejam dentro dos parâmetros ideais.
+4. Monitore os valores exibidos para garantir que as condições do ambiente dos corais estejam dentro dos parâmetros ideais.
 
 ## Requisitos
 
