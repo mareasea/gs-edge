@@ -6,6 +6,15 @@
 
 O CoralSense Monitor é um sistema de monitoramento avançado projetado para fornecer informações precisas sobre o ambiente de corais em aquários. Equipado com sensores de temperatura, luminosidade, pH e índice UV, o CoralSense Monitor oferece uma solução completa para monitorar as condições ideais para o crescimento e saúde dos corais.
 
+## Funcionalidades
+- Monitoramento de luminosidade (Lux): Verifica e exibe o nível de luminosidade. Aciona LEDs vermelhos, amarelos ou verdes para indicar níveis críticos, de alerta ou ideais, respectivamente.
+- Monitoramento de temperatura: Verifica e exibe a temperatura do ambiente em graus Celsius. Indica se a temperatura está dentro do intervalo ideal.
+- Monitoramento de pH (simulação): Verifica e exibe o nível de pH da água. Indica se o pH está dentro do intervalo ideal para corais.
+- Monitoramento de índice UV (simulação): Verifica e exibe o índice UV. Indica se o índice UV está em níveis aceitáveis ou críticos.
+- Registro de dados: Registra dados críticos na EEPROM para futura consulta. Exibe logs detalhados no terminal serial.
+- Exibição em LCD: Mostra todas as informações monitoradas em um display LCD.
+- Inicialização com animação: Exibe uma animação inicial no LCD ao ligar o sistema.
+
 ## Links
 - [Link do Projeto no Wokwi](https://wokwi.com/projects/399722316556201985)
 - [Vídeo no Youtube]()
@@ -25,7 +34,11 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 
 ## Dependências
 
-- Bibliotecas necessárias para os sensores utilizados no projeto (por exemplo, DHT para o sensor de temperatura e umidade).
+- DHT.h: Biblioteca para o sensor de temperatura e umidade DHT.
+- LiquidCrystal.h: Biblioteca para controlar displays LCD.
+- RTClib.h: Biblioteca para utilizar módulos RTC (Real-Time Clock).
+- Wire.h: Biblioteca para comunicação I2C.
+- EEPROM.h: Biblioteca para manipulação da memória EEPROM.
 
 #### COLABORADORES
 
