@@ -6,6 +6,10 @@
 
 O CoralSense Monitor é um sistema de monitoramento avançado projetado para fornecer informações precisas sobre o ambiente de corais em aquários. Equipado com sensores de temperatura, luminosidade, pH e índice UV, o CoralSense Monitor oferece uma solução completa para monitorar as condições ideais para o crescimento e saúde dos corais.
 
+## Links
+- [Link do Projeto no Wokwi](https://wokwi.com/projects/399722316556201985)
+- [Vídeo no Youtube]()
+
 ## Instruções de Uso
 
 1. Conecte os sensores de temperatura, luminosidade, pH e índice UV ao CoralSense Monitor.
