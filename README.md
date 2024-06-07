@@ -15,6 +15,12 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 - Exibição em LCD: Mostra todas as informações monitoradas em um display LCD.
 - Inicialização com animação: Exibe uma animação inicial no LCD ao ligar o sistema.
 
+## Observações
+- As leituras e informações possuem um delay de aproximadamente 10s para evitar sobrecarga de dados
+- Este projeto é apenas um protótipo!
+- Devido as limitações da plataforma Wokwi, utilizamos potenciômetros para simular os sensores de pH e de raios UV.
+- Os sensores utilizados não são os ideias para a proposta de utilizá-los no mar, por exemplo seria ideal utilizar ao invés do sensor DHT22, um sensor resistente a água como o DS18B20.
+
 ## Acesso ao prototipo simulado
 <a href="//wokwi.com/projects/399722316556201985" target="_blank" style="text-align: center; margin-right: 10px;">
   <img loading="lazy" src=https://github.com/mareasea/.github/assets/136378912/6568c29b-ca0c-488e-b784-1c9b44fc3526 width="150px"
