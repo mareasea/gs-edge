@@ -184,7 +184,7 @@ void loop() {
 
     mostrarInfo(mediaLux, luxMessage, mediaTemp, tempMessage, mediaPhLevel, phMessage, mediaUv, indiceUV, uvMessage); // Mostrar as informações no LCD
 
-    delay(2000); // Aguardar 8 segundos antes da próxima iteração 
+    delay(8000); // Aguardar 8 segundos antes da próxima iteração 
 }
 
 // Função para apagar todos os LEDs
