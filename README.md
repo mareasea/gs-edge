@@ -16,7 +16,7 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 - Inicialização com animação: Exibe uma animação inicial no LCD ao ligar o sistema.
 
 ## Acesso ao prototipo simulado
-<a href="//wokwi.com/projects/399722316556201985 " target="_blank" style="text-align: center; margin-right: 10px;">
+<a href="//wokwi.com/projects/399722316556201985" target="_blank" style="text-align: center; margin-right: 10px;">
   <img loading="lazy" src=https://github.com/mareasea/.github/assets/136378912/6568c29b-ca0c-488e-b784-1c9b44fc3526 width="150px"
 </a>
 
