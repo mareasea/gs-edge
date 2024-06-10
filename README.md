@@ -28,7 +28,7 @@ O CoralSense Monitor é um sistema de monitoramento avançado projetado para for
 
 ## Vídeo explicativo sobre o prejeto
 
-<a href="### " target="_blank" style="text-align: center; margin-right: 10px;">
+<a href="https://www.youtube.com/watch?v=J-tl1dWq988" target="_blank" style="text-align: center; margin-right: 10px;">
   <img loading="lazy" src=https://github.com/mareasea/.github/assets/136378912/2cb0afcc-b8be-4f2c-8eb7-57c15e6dc886 width="150px"
 </a>
 
