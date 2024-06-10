@@ -149,7 +149,6 @@ void loop() {
                 float lux = pow((R1 / R_LDR), 1.25) * 100; // Exemplo de ajuste, pode variar conforme seu LDR
                 somaLux += lux; // Soma o valor de lux
             }
-            delay(200);
         }
 
         temp = dht.readTemperature(); // Ler a temperatura do sensor DHT
@@ -162,6 +161,8 @@ void loop() {
 
         valorUv = analogRead(sensorUv); // Ler o valor do sensor UV
         somaUv += valorUv; // Soma o valor UV
+
+        delay(200);
     }
 
     // Calcular as médias
@@ -184,7 +185,7 @@ void loop() {
 
     mostrarInfo(mediaLux, luxMessage, mediaTemp, tempMessage, mediaPhLevel, phMessage, mediaUv, indiceUV, uvMessage); // Mostrar as informações no LCD
 
-    delay(2000); // Aguardar 8 segundos antes da próxima iteração 
+    delay(8000); // Aguardar 8 segundos antes da próxima iteração 
 }
 
 // Função para apagar todos os LEDs
